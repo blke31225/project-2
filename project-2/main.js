@@ -28,7 +28,7 @@ function createHighcharts(data){
         text: "Rates of different crimes in Wichita, KS"
         },
         subtitle: {
-        text: "Update: 2019 from ucr.fbi.gov/crime-in-the-u.s/2019 <br>Click and drag in the plot area to zoom in"
+        text: "Update: February 26, 2020 from ucr.fbi.gov/crime-in-the-u.s/2019 <br>Click and drag in the plot area to zoom in"
         },
         xAxis: [
         {
