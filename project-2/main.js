@@ -25,10 +25,10 @@ function createHighcharts(data){
         zoomType: 'xy'
         },
         title: {
-        text: "Coronavirus Outbreak in the US"
+        text: "Rates of different crimes in Wichita, KS"
         },
         subtitle: {
-        text: "Update: November 6, 2020 from covidtracking.com <br>Click and drag in the plot area to zoom in"
+        text: "Update: 2019 from ucr.fbi.gov/crime-in-the-u.s/2019 <br>Click and drag in the plot area to zoom in"
         },
         xAxis: [
         {
@@ -47,13 +47,13 @@ function createHighcharts(data){
         ],
         series: [
         {
-        name: "Confirmed Cases",
+        name: "2018",
         type: "lollipop",
         data: data[1],
         color: "orange"
         },
         {
-        name: "Deaths",
+        name: "2019",
         type: "lollipop",
         data: data[2],
         color: "red"
