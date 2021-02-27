@@ -13,8 +13,8 @@ function getTableData(table) {
     table.rows({ search: "applied" }).every(function() {
     const data = this.data();
     state.push(data[0]);
-    positive.push(parseInt(data[3].replace(/\,/g, "")));
-    death.push(parseInt(data[5].replace(/\,/g, "")));
+    2018.push(parseInt(data[3].replace(/\,/g, "")));
+    2019.push(parseInt(data[5].replace(/\,/g, "")));
     });
     data.push(state, positive, death);
     return data;
