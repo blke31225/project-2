@@ -7,9 +7,9 @@ $(document).ready(function(){
 
 function getTableData(table) {
     const data = [],
-    state = [],
-    positive = [],
-    death = [];
+    crime = [],
+    2018 = [],
+    2019 = [];
     table.rows({ search: "applied" }).every(function() {
     const data = this.data();
     state.push(data[0]);
