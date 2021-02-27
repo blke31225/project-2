@@ -7,16 +7,16 @@ $(document).ready(function(){
 
 function getTableData(table) {
     const data = [],
-    crime = [],
+    Category = [],
     2018 = [],
     2019 = [];
     table.rows({ search: "applied" }).every(function() {
     const data = this.data();
-    crime.push(data[0]);
+    Category.push(data[0]);
     2018.push(parseInt(data[3].replace(/\,/g, "")));
     2019.push(parseInt(data[5].replace(/\,/g, "")));
     });
-    data.push(crime, 2018, 2019);
+    data.push(Category, 2018, 2019);
     return data;
     }
 function createHighcharts(data){
