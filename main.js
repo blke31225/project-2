@@ -32,7 +32,7 @@ function createHighcharts(data){
         },
         xAxis: [
         {
-        categories: data[1],
+        categories: data[0],
         labels: {
         rotation: -45
         }
@@ -49,13 +49,13 @@ function createHighcharts(data){
         {
         name: "2018",
         type: "lollipop",
-        data: data[2],
+        data: data[1],
         color: "orange"
         },
         {
         name: "2019",
         type: "lollipop",
-        data: data[3],
+        data: data[2],
         color: "red"
         }
         ],
